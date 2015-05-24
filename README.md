@@ -53,17 +53,18 @@ The sales data does not capture the difference between the stock and the demand.
 
 ##Field descriptions
 
-date - the day of sales or weather
-store_nbr - an id representing one of the 45 stores
-station_nbr - an id representing one of 20 weather stations
-item_nbr - an id representing one of the 111 products
-units - the quantity sold of an item on a given day
+date - the day of sales or weather;
+store_nbr - an id representing one of the 45 stores;
+station_nbr - an id representing one of 20 weather stations;
+item_nbr - an id representing one of the 111 products;
+units - the quantity sold of an item on a given day;
 id - a triplet representing a store_nbr, item_nbr, and date. Form the id by concatenating these (in that order) with an underscore. E.g. "2_1_2013-04-01" represents store 2, item 1, sold on 2013-04-01.
-File descriptions
 
-key.csv - the relational mapping between stores and the weather stations that cover them
-sampleSubmission.csv - file that gives the prediction format
-train.csv - sales data for all stores & dates in the training set
-test.csv - stores & dates for forecasting (missing 'units', which you must predict)  NOTE: This file has been encrypted. To get the password, please fill out Walmart's Recruiting Survey
-weather.csv - a file containing the NOAA weather information for each station and day
-noaa_weather_qclcd_documentation.pdf - a guide to understand the data provided in the weather.csv file
+##File descriptions
+
+key.csv - the relational mapping between stores and the weather stations that cover them;
+sampleSubmission.csv - file that gives the prediction format;
+train.csv - sales data for all stores & dates in the training set;
+test.csv - stores & dates for forecasting (missing 'units', which you must predict)  NOTE: This file has been encrypted. To get the password, please fill out Walmart's Recruiting Survey;
+weather.csv - a file containing the NOAA weather information for each station and day;
+noaa_weather_qclcd_documentation.pdf - a guide to understand the data provided in the weather.csv file.
