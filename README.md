@@ -16,13 +16,14 @@ Please note: You must compete as an individual in recruiting competitions. You m
 
 Submissions are evaluated one the Root Mean Squared Logarithmic Error (RMSLE). The RMSLE is calculated as
 $$\sqrt{\frac{1}{n}\sum_{i=1}^n (\log(p_i+1)-\log(a_i+1))^2}$$
-Where:
+where:
 
-n is the number of rows in the test set
-pi is your predicted units sold
-ai is the actual units sold
-log(x) is the natural logarithm
-Submission Format
+$n$ is the number of rows in the test set;
+$p_i$ is your predicted units sold;
+$a_i$ is the actual units sold;
+$\log(x)$ is the natural logarithm
+
+#Submission Format
 
 Your submission file must have a header and should be structured in the following format. The id column is a triplet representing a store_nbr, item_nbr, and date. Form the id by concatenating these (in that order) with an underscore. E.g. "2_1_2013-04-01" represents store 2, item 1, sold on 2013-04-01.
 
